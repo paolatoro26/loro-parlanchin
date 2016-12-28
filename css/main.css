@@ -1,0 +1,10 @@
+body{
+	background: url(../img/loros.jpg) no-repeat;
+	background-size: cover
+}
+.container{
+	
+	font-family: Garamond;
+	margin-top:18%; 
+	background: white
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Loro</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+</head>
+<body>
+<section class="principal text-center">
+	<div class="container">
+		<div class="col-md-8 col-md-offset-2">
+			<h1>
+				Estamos en problemas ?
+			</h1>
+			<p>Responde el formulario y te dirè si estamos en problemas.</p>
+			<div class="ingreso">
+				<label for="hora"> Que hora es? </label>
+				<input type="text" id="hora">
+			</div>
+
+			<div>
+				<h3>¿Tu lorito esta Hablando?</h3>
+				<label for="habla">
+					<input type="checkbox" onchange="habla()" id="hablasi"> Si </label>
+					<input type="checkbox" onchange="habla()" id="hablano"> No </label>
+				</div>
+			<button onclick="calcular()" class="btn btn-primary">Calcular</button>	
+			<h2 id="salida"></h2>		
+		</div>
+	</div>
+</section>
+
+
+<script src="js/main.js"></script>
+</body>
+	
+</html>
